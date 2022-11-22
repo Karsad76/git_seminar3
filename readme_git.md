@@ -79,7 +79,9 @@
     git digg <commit1_hash> <commit2_hash>
 
 
+## Переключение между коммитами
 
+Для переключения между коммитами используется команда "git checkout" с параметром хэш коммита:
 
-git checkout <hash>
+    git checkout <commit_hash>
 
