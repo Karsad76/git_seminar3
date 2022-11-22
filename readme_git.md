@@ -35,12 +35,22 @@
 
     git commit -m "message"
 
+Команду "git add" для уже отслеживаемых файлов (не новых!) можно заменить командой "git commit" с параметром -a. Например:
+
+    git commit -a
+
+Также, с помощью параметоров команды, можно объединить в одно действие индексацию отслеживаемого файла и его коммит с комментарием. Например:
+
+    git commit -a -m "message"
+
+или
+
+    git commit -am "message"
+
+Параметры команды можно указывать вместе, Git разберется))
 
 
-
-git commit -a
-    git commit -am
-    git log
+git log
     git log --oneline
     git log --all
     git log --oneline --all
