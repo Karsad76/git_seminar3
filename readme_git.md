@@ -87,3 +87,4 @@
 
     git checkout <commit_hash>
 
+## Ветвление
