@@ -87,3 +87,6 @@
 
     git checkout <commit_hash>
 
+## Ветвление
+
+Ветвление в Git  нужно для ...
